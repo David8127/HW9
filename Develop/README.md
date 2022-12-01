@@ -1,10 +1,10 @@
-# testing titles
+# Example Projecto
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description 
 
-jaipjsfd
+This is an example project that shows the fuctionality of my README generator
 
 ### ***Table of Contents*** 
 **[Installation](#installation)**<br>
@@ -15,32 +15,32 @@ jaipjsfd
 **[License](#license)**<br>
 
 
-## Installation ##
+## Installation 
 
-akdspf
+There are no required steps for installing this project
 
-## Usage ##
+## Usage 
 
-pokepofk
+You can use the Example Projecto to do lots of things.
 
-## Contributing ##
+## Contributing 
 
-pokasodfk
+None.
 
-## Tests ##
+## Tests 
 
-[okadsf
+N/A
 
-## Questions ##
+## Questions 
 
 ### For any questions, comments, or curiosities, please feel free to contact me at:
 
-*Github Profile* : <https://github.com/Dvid*>
+*Github Profile* : <https://github.com/David8127>
 
-*Email* : David@gmail.com
+*Email* : thisemail@gmail.com
 
-## License ##
+## License 
 
+### This application is covered under the following license(s):
 ### [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-### Link:
 

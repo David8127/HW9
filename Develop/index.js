@@ -1,8 +1,8 @@
-// TODO: Include packages needed for this application
+// Packages needed to run this application
 const inquirer = require("inquirer")
 const generateMarkdown = require('./utils/generateMarkdown')
 const fs = require('fs');
-// TODO: Create an array of questions for user input
+// An array of questions to accept user input
 const questions = [
     {
         type: "input",
@@ -21,7 +21,7 @@ const questions = [
     },
     {
         type: "list",
-        message: "What kind of license is your project?",
+        message: "What kind of license is your project covered by?",
         name: "license",
         choices: [
             {name: 'MIT', value: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"},
@@ -39,7 +39,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "Provide inscructions and examples for use. You can include screenshots as needed after the README file is rendered",
+        message: "Provide inscructions and examples for use. You can include screenshots as needed after the README file is rendered.",
         name: "usage"
     },
     {
@@ -49,7 +49,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "Write tests for you application here.",
+        message: "Write tests for you application here: ",
         name: "tests"
     },
     {
@@ -65,12 +65,12 @@ const questions = [
     
 ];
 
-// TODO: Create a function to write README file
+// A function to write README file
 function writeToFile(fileName, data) {
     fs.writeFileSync(fileName, data);
  }
 
-// TODO: Create a function to initialize app
+// A function that initializes app
 function init() { 
     inquirer.prompt(questions)
         .then(response => {

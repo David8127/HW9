@@ -1,32 +1,5 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-// function renderLicenseLink(license) {
-//   if (license = 'MIT') {
-//     return "https://choosealicense.com/licenses/mit/" 
-//   } else if (license = 'ISC') {
-//     return "https://choosealicense.com/licenses/isc/"
-//   } else if (license = 'Boost') {
-//     return "https://choosealicense.com/licenses/bsl-1.0/"
-//   } else if (license = 'Apache') {
-//     return "https://choosealicense.com/licenses/apache-2.0/"
-//   } else if (license = 'Mozilla') {
-//     return "https://choosealicense.com/licenses/mpl-2.0/"
-//   } else {
-//     return ''
-//   }
-// };
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {
-
-}
-
-// TODO: Create a function to generate markdown for README
+// A function that generates markdown for README
 function generateMarkdown(data) {
 return `# ${data.title}
 
@@ -71,8 +44,8 @@ ${data.tests}
 
 ## License 
 
+### This application is covered under the following license(s):
 ### ${data.license ? data.license : ''}
-### Link:
 
 `;
 
