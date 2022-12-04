@@ -22,5 +22,7 @@ const fs = require('fs');
 
 ## WalkThrough Video
 
-Link: https://drive.google.com/file/d/1M4aYEtKtv6cnYtsgx5PXLnEIndSvxsdm/view
+Here is a link to a video showing the functionality of this completed application:
+
+https://drive.google.com/file/d/1M4aYEtKtv6cnYtsgx5PXLnEIndSvxsdm/view
 
