@@ -1,13 +1,10 @@
+# TEST
 
-// A function that generates markdown for README
-function generateMarkdown(data) {
-return `# ${data.title}
-
-${data.license ? data.license : ''}
+[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
 ## Description 
 
-${data.description}
+THis project is meant to show the functionality of my application
 
 ### ***Table of Contents*** 
 **[Installation](#installation)**<br>
@@ -20,35 +17,30 @@ ${data.description}
 
 ## Installation 
 
-${data.installation}
+npm install
 
 ## Usage 
 
-${data.usage}
+I will include this later
 
 ## Contributing 
 
-${data.contributing}
+N/A
 
 ## Tests 
 
-${data.tests}
+N/A
 
 ## Questions 
 
 For any questions, comments, or curiosities, please feel free to contact me at:
 
-*Github Profile* : <https://github.com/${data.username}>
+*Github Profile* : <https://github.com/David8127>
 
-*Email* : ${data.email}
+*Email* : example@gmail.com
 
 ## License 
 
 This application is covered under the following license(s):
-${data.license ? data.license : ''}
+[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
-`;
-
-}
-
-module.exports = generateMarkdown;
