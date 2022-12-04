@@ -22,8 +22,5 @@ const fs = require('fs');
 
 ## WalkThrough Video
 
-Link: 
-
-## Link to deployed webpage
-
+Link: https://drive.google.com/file/d/1M4aYEtKtv6cnYtsgx5PXLnEIndSvxsdm/view
 
